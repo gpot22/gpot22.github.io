@@ -55,7 +55,15 @@ p {
 }
 
 .main-nav a {
+    background-color: transparent;
     color: var(--light-text-color);
+    border-bottom: 1px solid transparent;
+    transition: 200ms;
+}
+
+.main-nav a:hover {
+    color: black;
+    border-bottom: 3px solid rgba(82, 82, 82, 0.1)
 }
 
 
@@ -267,5 +275,15 @@ img.icon {
 
 .resume:active {
     color: white;
-    background-color:rgb(145, 172, 212)
+    background-color:var(--acccent-color)
+}
+
+#nav-indicator {
+    pointer-events: none;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    background-color: rgb(145, 172, 212, 0.8);
+    filter: blur(10px);
+    transition: 300ms;
 }
