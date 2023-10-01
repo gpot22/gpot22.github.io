@@ -15,7 +15,7 @@ window.addEventListener('load', () => {
     });
 
     let html_page_url = window.location.toString().split('/').pop();
-    let idx = pages.indexOf(html)
+    let idx = pages.indexOf(html_page_url)
     if(idx == -1) return;
     let rect = navItemRects[idx].getBoundingClientRect()
     setNavIndicator(rect)
