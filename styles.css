@@ -137,11 +137,6 @@ img.icon {
     color: var(--acccent-color)
 }
 
-
-.profile-nav {
-    /* display: inline-block; */
-}
-
 .profile-nav.contacts li {
     display: flex;
     align-items: center;
