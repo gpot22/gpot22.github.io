@@ -23,7 +23,7 @@ window.addEventListener('load', () => {
 
 let counters = []
 
-const projects = document.querySelectorAll(".folio-project")
+const projects = document.querySelectorAll(".img-slider-container")
 console.log(projects)
 projects.forEach((project, index) => {
     prepSlides(project, index)
