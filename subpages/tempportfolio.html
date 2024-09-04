@@ -125,8 +125,8 @@
                         </div>
                         <p class="project-description"> 
                             We used a matrix of hall effect sensors and housed magnets in each chess piece, to detect their positions on the board. 
-                            Servo-powered cars on the underside of the board can then shift pieces accordingly, follwing the pathfinding algorithm I simulated, tested and developed
-                            
+                            Servo-powered cars on the underside of the board can then shift pieces to make moves, follwing the pathfinding algorithm I simulated, 
+                            tested and developed.
                         </p>
                         <br>
                         <div class="img-slider-container hover-shards" style="min-width:400px; min-height: 350px">
@@ -189,6 +189,45 @@
                         <p class="project-description"> 
                             Finally, I consolidated the prototyping phase into one large 2 layer pcb! You can view some
                             of my schematics above, or check out the project's files.
+                        </p>
+                        <br>
+                        <div class="img-slider-container hover-shards" style="min-width:400px; min-height: 350px">
+                            <div class="slider-btn-container">
+                                <button type="button" class="prev-btn">
+                                  <img src="/assets/icons/left-arrow.png">
+                                </button>
+                                <button type="button" class="next-btn">
+                                  <img src="/assets/icons/right-arrow.png">
+                                </button>
+                            </div>
+                            <div class="slide">
+                                <img src="/assets/portfolio/inter/autochess/slider0/cars.png">
+                            </div>
+                            <div class="slide">
+                                <img src="/assets/portfolio/inter/autochess/slider0/pathfinding_sim.png">
+                            </div>
+                        </div>
+                        <p class="project-description"> 
+                            I am currently continuing the development of the pathfinding algorithm as one of the
+                            final features to implement in our project! I started with an adaptation of the popular A* algorithm,
+                            and created a simulation using python and pygame. <br> <br>
+                            While this is sufficient for routing a chess piece from square to square, lots of complication arises from
+                            the restricted nature of the movement of our cars, and having to avoid both collisions between pieces on top of
+                            the board, and collisions between cars under the board.
+                        </p>
+                        <br>
+                        <div class="img-slider-container hover-shards" style="min-width:436px; min-height: 292px">
+                            
+                            <div class="slide">
+                                <img src="/assets/portfolio/inter/autochess/pathfinding.gif">
+                            </div>
+                        </div>
+                        <p style="font-size:small;margin-top:-14px;">Source: <a href="http://www.red3d.com/cwr/steer/gdc99/" target="_blank">http://www.red3d.com/cwr/steer/gdc99/</a></p>
+                        <p class="project-description">
+                                                        
+                            I feel myself falling deep into the rabbit hole that is multi-agent pathfinding and steering, encountering
+                            some scary words like "combinatorics" and "unaligned collision avoidance" but I'm hoping this will all eventually lead
+                            to a successful pathfinding algorithm for this project!
                         </p>
                         <a target="_blank" href="https://github.com/gpot22/autochess3000">View project files...</a>
                     </div>
