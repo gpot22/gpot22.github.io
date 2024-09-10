@@ -37,8 +37,8 @@ function prepSlides(project, index) {
 
     const nextBtn = project.querySelector(".next-btn");
     const prevBtn = project.querySelector(".prev-btn");
-
     counters.push(0)
+    if (nextBtn == null || prevBtn == null) return;
     nextBtn.addEventListener("click", function () {
     counters[index]++;
     carousel(slides, counters[index], nextBtn, prevBtn);
