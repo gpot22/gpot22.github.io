@@ -3,9 +3,9 @@
 
 :root {
     --background-color: #f5f8fd;
-    --accent-color: rgb(145, 172, 212);
+    --accent-color: rgb(133, 163, 208);
     --accent-color-light: rgba(144, 172, 212, 0.55);
-    --light-text-color: rgba(0, 0, 0, 0.7);
+    --light-text-color: rgba(0, 0, 0, 0.8);
 }
 
 * {
@@ -117,7 +117,8 @@ h1 {
     font-size: 40px;
     margin: 0;
     font-weight: 300;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    margin-top: 50px;
 }
 
 span.accent {
@@ -127,6 +128,7 @@ span.accent {
 
 .content p {
     margin-bottom: 20px;
+    color: var(--light-text-color);
 }
 
 /* SIDEBAR PROFILE STYLES */
